@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MATCH YOUR PERFECT PARTNER</h1>
+    <form method = "GET" action="/profiles/new"><button>add new </button></form>
+  <% for (profile of profiles){ %>
+        <div class = "main">
+            <div class = "img">
+            <p> <%=profile.img%> </p>
+        </div>
+        <div class = "info">
+            <p> name :<%= profile.name %></p>
+            <p>age : <%= profile.age%></p>
+            <p> profession: <%= profile.profession%></p>
+            <p> salary :<%= profile.salary%></p>
+            <p> city :<%= profile.city%></p>
+            <p> Cast :<%= profile.Cast%></p>
+            <p> religion :<%= profile.religion%></p>
+
+        </div>
+    </div>
+    <hr/>
+        
+
+    <%}%>
+    
+</body>
+</html>

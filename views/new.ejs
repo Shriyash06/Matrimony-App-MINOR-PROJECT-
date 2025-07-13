@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add New Profile</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <form method="POST" action="/profiles" enctype="multipart/form-data">
+    <h1>Add New Profile</h1>
+
+    <input type="text" name="name" placeholder="Enter your name" required /><hr/>
+    <input type="number" name="age" placeholder="Enter your age" required /><hr/>
+    <input type="text" name="profession" placeholder="Enter your profession" required /><hr/>
+    <input type="text" name="salary" placeholder="Enter your salary" required /><hr/>
+    <input type="text" name="city" placeholder="Enter your city" required /><hr/>
+    <input type="text" name="Cast" placeholder="Enter your cast" required /><hr/>
+    <input type="text" name="religion" placeholder="Enter your religion" required /><hr/>
+    <input type="file" name="img" accept="image/*"  /><hr/>
+
+    <button type="submit">Add Profile</button><hr/>
+  </form>
+</body>
+</html>

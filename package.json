@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "yash shrivatsva",
   "license": "ISC",
-  "description": "",
+  "description": "today i only write a setup of this project\r # technologies\r 1 . java script\r 2 . node\r 3 . express\r 4 . ejs\r 5 . mongo database",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.1.0",

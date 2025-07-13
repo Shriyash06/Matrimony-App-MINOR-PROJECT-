@@ -17,7 +17,7 @@ async function main() {
 // Seed data
 const allprofiles = [
   {
-    profile: "www.yash.com",
+    img: "www.yash.com",
     name: "Yash Shrivastava",
     age: 27,
     profession: "Software Engineer",
@@ -27,7 +27,7 @@ const allprofiles = [
     salary: "200000/month",
   },
   {
-    profile: "www.yash.com",
+    img: "www.yash.com",
     name: "Abhishek Solanki",
     age: 25,
     profession: "Spanish Mediator",
@@ -37,7 +37,7 @@ const allprofiles = [
     salary: "76000/month",
   },
   {
-    profile: "www.yash.com",
+    img: "www.yash.com",
     name: "Arpit Shrivastava",
     age: 25,
     profession: "Branch Manager",
@@ -47,7 +47,7 @@ const allprofiles = [
     salary: "125000/month",
   },
   {
-    profile: "www.yash.com",
+    img: "www.yash.com",
     name: "Kshitiz Shrivastava",
     age: 30,
     profession: "Cashier in SBI",
