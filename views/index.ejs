@@ -15,6 +15,13 @@
             <p> <%=profile.img%> </p>
         </div>
         <div class = "info">
+            <form method = "get" action = "/profile/<%=profile.id%>/edit">
+                <button> custumize</button>
+            </form>
+            <form method = "post" action = "/profiles/<%=profile.id%>?_method = DELETE">
+                <button>fire</button>
+
+            </form>
             <p> name :<%= profile.name %></p>
             <p>age : <%= profile.age%></p>
             <p> profession: <%= profile.profession%></p>
